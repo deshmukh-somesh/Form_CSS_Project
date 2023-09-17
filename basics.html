@@ -1,0 +1,55 @@
+<!-- Create an HTML form to input the basic details of the student -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+                <label>
+                    Salutation
+                    <br />
+                    <select name="Salutation">
+                        <option>None</option>
+                        <option>Mr.</option>
+                        <option>Mrs.</option>
+                        <option>Prof.</option>
+                        <option>Dr.</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="firstName">First name: <input type="text" name="firstName"/></label>
+            </p>
+            <p>
+                <label for="lastName">Last name: <input type="text" name="lastName"/></label>
+            </p>
+            <p>
+                <label for="male"><input type="radio" name="gender"/>Male</label>
+                <label for="female"><input type="radio" name="gender" />Female</label>
+            </p>
+            <p>
+                <label for="Email">Email: <input type="email" name="Email"/></label>
+            </p>
+            <p>
+                <label for="Phone">Phone: <input type="number" name="Phone"/></label>
+            </p>
+            <p>
+                <label for="dateofBirth">Data of Birth: <input type="date" name="dateofBirth"/></label>
+            </p>
+            <p>
+                <label for="address">Address</label>
+                <br/>
+                <textarea type="text" name="address"  rows="6" cols=""></textarea>
+            </p>
+            <p><button type="radio">Submit</button></p>
+        </fieldset>
+    </form>
+</body>
+</html>
+

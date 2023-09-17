@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <form id="form">
+        <p>
+        <label>Name</label>
+        <br><input type="text" placeholder="Enter your name"/>
+
+    </p>
+    <p>
+        <label>Email</label>
+        <br><input type="email" placeholder="Enter your email"/>
+    </p>
+        
+    <p>
+        <label>Age</label>
+        <br><input type="number" placeholder="Enter your age"/>
+    </p>
+
+    <p>
+        <label>Which option best describes you?</label>
+        <br><br>
+        <select>
+            <option>
+                Student
+            </option>
+            <option>
+                Employee
+            </option>
+            <option>
+                Programmer
+            </option>
+        </select>
+       
+    </p>
+    <p>
+        <p>Would you recommand GeeksforGeeks to a friend?</p>
+        <label><input type="radio" name="choose"/>Yes</label><br>
+        <label><input type="radio" name="choose"/>No</label><br>
+        <label><input type="radio" name="choose"/>Maybe</label>
+    </p>
+
+    <p>
+        <p>Languages and frameworks known (check all that apply)</p>
+      
+    </p>
+    <ul style="list-style-type:none">
+        <li><input type="checkbox" name="language"/>C</li>
+        <li><input type="checkbox" name="language"/>C++</li>
+        <li><input type="checkbox" name="language"/>C#</li>
+        <li><input type="checkbox" name="language"/>Java</li>
+        <li><input type="checkbox" name="language"/>Python</li>
+        <li><input type="checkbox" name="language"/>JavaScript</li>
+        <li><input type="checkbox" name="language"/>React</li>
+        <li><input type="checkbox" name="language"/>Angular</li>
+        <li><input type="checkbox" name="language"/>Django</li>
+        <li><input type="checkbox" name="language"/>Spring</li>
+        
+    </ul>
+
+    <button type="submit" value="submit">
+Submit
+    </button>
+    </form> -->
+
+    <form id="form">
+      <div class="form-control">
+        <label for="name" id="label-name"> Name</label>
+        <!-- Input Type text -->
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-control">
+        <label for="email" id="label-email"> Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+      </div>
+      <div class="form-control">
+        <label for="age" id="label-age"> Age</label>
+        <input type="number" id="age" placeholder="Enter your age" />
+      </div>
+      <div class="form-control">
+        <label for="role" id="label-role"
+          >Which option best describes you?</label
+        >
+        <!-- Dropdown options -->
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label> Would you recommand GeeksforGeeks to a friend? </label>
+        <label for="recommend-1">
+          <input type="radio" id="recommend-1" name="recommand" />Yes
+        </label>
+        <label for="recommand-2">
+          <input type="radio" id="recommand-2" name="recommand" />No
+        </label>
+        <label>
+          <input type="radio" id="recommand-2" name="recommand" />Maybe
+        </label>
+      </div>
+
+      <div class="form-control">
+        <label>
+          Language and Frameworks know
+          <small>(Check all that apply)</small></label
+        >
+        <label for="inp-1"> <input type="checkbox" name="inp" /> C </label>
+        <label for="inp-2"> <input type="checkbox" name="inp" /> C++ </label>
+        <label for="inp-3"> <input type="checkbox" name="inp" /> C# </label>
+        <label for="inp-4"> <input type="checkbox" name="inp" /> CSS </label>
+        <label for="inp-5"> <input type="checkbox" name="inp" /> Angular </label>
+        <label for="inp-6"> <input type="checkbox" name="inp" /> Java </label>
+        <label for="inp-7"> <input type="checkbox" name="inp" /> Python </label>
+        <label for="inp-8"> <input type="checkbox" name="inp" /> Javascript </label>
+        <label for="inp-9"> <input type="checkbox" name="inp" /> React </label>
+        <label for="inp-10"> <input type="checkbox" name="inp" /> Spring </label>
+      </div>
+
+      <div class="form-control">
+        <label for="comment">Any comments or suggestions</label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+      </div>
+      <button type="submit" value="submit"> Submit</button>
+    </form>
+  </body>
+</html>
