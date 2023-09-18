@@ -3,15 +3,10 @@ if hungry == "yes":
     print("eat samosa")
     
 else:
+    thirsty = input("are you thirsty")
+    if thirsty == "yes":
+        print("drink water")
     print("do your homework")
-
-# practice : 
-# git log
-# git status
-# git revert commitID
-# git reset --hard CommitId 
-# git checkout -- fileName
-# git restore fileName
 
 
 

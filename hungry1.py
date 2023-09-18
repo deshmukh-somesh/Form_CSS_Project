@@ -10,3 +10,16 @@
 # creating new branch
 # merge a branch
 # deleting a branch
+
+# Git 
+# Mercurial
+# Azure DevOps Server
+
+# Git, Mercurial, Azure DevOps Server
+
+# git branch -> this will 
+# git branch <branch>
+# git checkout <branchtoshift> 
+
+
+
