@@ -18,3 +18,4 @@ def mul():
 def div():
     print(10/2)
     
+   
