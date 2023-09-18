@@ -1,10 +1,3 @@
-hungry = input("Are you hungry")
-if hungry == "yes":
-    print("eat samosa")
-    
-else:
-    print("do your homework")
-
 # practice : 
 # git log
 # git status
@@ -13,7 +6,7 @@ else:
 # git checkout -- fileName
 # git restore fileName
 
-
-
-
-
+# let's learn about 
+# creating new branch
+# merge a branch
+# deleting a branch
