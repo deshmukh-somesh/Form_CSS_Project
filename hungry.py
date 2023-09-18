@@ -4,3 +4,11 @@ if hungry == "yes":
     
 else:
     print("do your homework")
+
+# practice : 
+# git log
+# git status
+# git revert commitID
+# git reset --hard CommitId 
+# git checkout -- fileName
+# git restore fileName
