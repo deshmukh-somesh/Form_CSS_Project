@@ -4,6 +4,7 @@ if hungry == "yes":
     
 else:
     print("do your homework")
+    print("drink milk")
 
 # practice : 
 # git log
