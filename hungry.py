@@ -17,4 +17,7 @@ def mul():
 
 def div():
     print(10/2)
+
+def mod():
+    print(10%2)
     
